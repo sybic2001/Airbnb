@@ -1,0 +1,14 @@
+/* Your banner CSS code here */
+.banner {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+
+}

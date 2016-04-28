@@ -1,0 +1,64 @@
+/* Your card CSS code here */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 30%;
+  height: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #2F2F2F
+}
+
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.card-link:hover {
+  opacity: 0.2;
+}
+
+.card-category {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.card-description p {
+  margin: 0px;
+  font-size : 16px;
+}
+
+.card-avatar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card h2 {
+  margin: 0px;
+  color: white;
+  text-shadow: 0px 0px 4px black
+}
