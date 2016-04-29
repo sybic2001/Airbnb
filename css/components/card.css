@@ -1,64 +1,45 @@
-/* Your card CSS code here */
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-}
-
+/* Card design */
 .card {
-  flex: 0 0 30%;
-  height: 300px;
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
   position: relative;
-  background-size: cover;
-  background-position: center center;
+  margin: 10px 0px;
   border-radius: 5px;
-  box-shadow: 0 0 4px #2F2F2F
 }
-
-
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 13px;
+  }
 .card-link {
   position: absolute;
   top: 0;
   bottom: 0;
-  border-radius: 5px;
   width: 100%;
-  height: 100%;
+  z-index:2;
   background: black;
   opacity: 0;
-  transition: opacity 0.2s ease;
 }
-
-.card-link:hover {
-  opacity: 0.2;
-}
-
-.card-category {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 25px;
-  color: white;
-}
-
-.card-description {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-}
-
-.card-description p {
-  margin: 0px;
-  font-size : 16px;
-}
-
-.card-avatar {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.card h2 {
-  margin: 0px;
-  color: white;
-  text-shadow: 0px 0px 4px black
+.card-link:hover{
+  opacity: 0.1;
 }
