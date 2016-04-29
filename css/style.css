@@ -28,3 +28,12 @@ h2 {
   font-size: 20px;
 }
 
+.light-shadow {
+  box-shadow: 0 0 0 0 #FFFFB5;
+  transition: all 0.15s ease;
+}
+
+.light-shadow:hover {
+  box-shadow: 0 0 5px 1px #FFFFB5;
+}
+
